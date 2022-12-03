@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+    
+    
+</head>
+<body>
+    <div class="login">
+        
+    <form action="stayhealth.html">
+    <h1> Stay Health</h1>
+    <div class="box">
+        <div class="text-box">
+            <h4> Họ và Tên</h4>
+            <input placeholder="Tên đầy đủ của bạn" type="text" required id="name">
+        </div>
+        
+        <div class="text-box"> 
+            <h4> Tuổi </h4>
+            <input  placeholder=" Chỉ chứa number" type="text" required id="age">
+        </div>
+
+
+        <div class="text-box"> 
+            <h4> Số điện thoại </h4>
+            <input  placeholder=" Chỉ chứa number" type="text" required id="pnumb">
+        </div>
+       
+        <label for="Sports">Choose your favorite sport:</label>
+        
+        <select id="Sports">
+          <option value="Football">Football</option>
+          <option value="Basketball">Basketball</option>
+          <option value="Badminton">Badminton</option>
+          <option value="Shuttlecock">Shuttlecock</option>
+          <option value="Other sports">Other Sports</option>
+        
+        </select>
+
+        <h4>(*)Đăng Nhập để tới StayHealth </h4>
+        
+        <div class="text-box">
+            <button type="submit" onclick="validate()"> Đăng Nhập</button>
+            
+        </div>
+    </div>
+</div>
+</form>
+    <script src="app.js"></script>
+</html>

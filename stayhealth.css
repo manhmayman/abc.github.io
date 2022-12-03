@@ -1,0 +1,120 @@
+* {
+    font-family: "Karma", sans-serif
+}
+.nav-bar {
+    background-color: white;
+    color: black;
+    
+}
+.Navbar-items:hover {
+    background: black;
+    color: white;
+}
+.Navbar-items {
+    color: black;
+    text-decoration: none;
+    font-size: 150%;
+    margin: 30px;
+    font-family: Courier;
+}
+.slide {
+    height: 75vh;
+    width: 150vh;
+}
+.gird-photo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photo{
+   max-width: 300px ;
+   padding: 0px 8px 50px 8px;
+   text-align: center;
+   
+}
+
+.photo img {
+    width: 100%;
+    border-radius: 5px;
+    height: 40%;
+}
+
+.photo h3{
+    font-weight: 400;
+    font-size: 24px;
+    width: 100%;
+    padding: 8px 0px 16px 0px;
+}
+
+.photo p{
+    font-size: 15px;
+    line-height: 1.5;
+}
+/* button */
+.pagination{
+    padding: 16px 0px
+}
+.bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar-items{
+    background-color: aquamarine;
+    padding: 8px 16px;
+    color: black;
+    text-decoration: none;
+}
+.bar-items:hover{
+   background-color: black;
+   color: #ffff;
+}
+
+.gird-photo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* canxi */
+.g-photo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ph{
+   max-width: 300px ;
+   padding: 0px 8px 50px 8px;
+   text-align: center;
+   
+}
+
+.ph img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.ph h3{
+    font-weight: 400;
+    font-size: 24px;
+    width: 100%;
+    padding: 8px 0px 16px 0px;
+}
+
+.ph p{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.i {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
